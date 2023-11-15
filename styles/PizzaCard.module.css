@@ -1,0 +1,116 @@
+.container {
+    width: 30%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1.3em;
+    margin: 1.5em 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.pizzaImg {
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.price {
+    color: rgb(138, 57, 57);
+    font-weight: bold;
+}
+
+.span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    color: grey;
+}
+
+.headerImgs {
+    position: relative;
+    width: 80%;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    padding: 0.7em 0.7em 0.7em 2.8em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 1.2em;
+    font-weight: bold;
+    width: 70%;
+    cursor: pointer;
+}
+
+.cartBtn {
+position: absolute;
+left: 0.6em;
+top: 2.2em;
+}
+
+@media screen and (max-width: 1081px) {
+.container {
+    width: 30%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 0.7em 1em;
+    margin: 1em 0.7em;
+}
+
+.title {
+    font-size: 0.9rem;
+}
+
+.price {
+    color: rgb(138, 57, 57);
+    font-weight: bold;
+    margin-left: 2.2em;
+    font-size: 14px;
+}
+
+.pizzaImg {
+    width: 200px;
+    height: 200px;
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+.container {
+    width: 27%;
+    padding: 0.6em 1em;
+    margin: 1em 0.7em;
+}
+
+
+.pizzaImg {
+    width: 150px;
+    height: 150px;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    padding: 1em 3.5em 0.7em 6.5em;
+    margin-top: 1em;
+    font-size: 8px;
+}
+
+.cartBtn {
+left: 0.8em;
+top: 0.8em;
+}
+}

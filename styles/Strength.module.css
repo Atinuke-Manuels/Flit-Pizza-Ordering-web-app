@@ -1,0 +1,29 @@
+.container {
+    margin: 4em 0 1em 0;
+    background-color: #fffbed;
+    padding-bottom: 2.5em;
+}
+
+.redHeading {
+    color: red;
+}
+
+.mainHeading {
+    font-weight: bold;
+}
+
+.cardDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3em;
+}
+
+.cardHeader{
+    margin-top: 0.8em;
+}
+
+.cardDesc {
+    color: grey;
+    margin-top: 1em;
+}

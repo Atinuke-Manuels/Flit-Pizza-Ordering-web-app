@@ -1,0 +1,40 @@
+.container {
+    margin: 0 0 3em 0;
+    width: 100%;
+}
+
+.redHeading {
+    color: red;
+}
+
+.mainHeading {
+    font-weight: bold;
+}
+
+.cardDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    padding: 4em;
+    /* padding: 1em 1.3em; */
+    margin: 1.5em 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.feedBackImg {
+    border-radius: 50%;
+}
+
+.pTag {
+    text-align: center;
+    color: grey;
+    margin-top: 1.2em;
+}

@@ -1,0 +1,19 @@
+.container {
+    margin: 4em 0;
+}
+
+.redHeading {
+    color: red;
+}
+
+.mainHeading {
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 100%;
+    /* padding-top: 5em; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

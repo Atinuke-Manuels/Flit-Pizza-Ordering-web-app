@@ -1,0 +1,89 @@
+.container {
+    background-color: white;
+    display: flex;
+    height: 3em;
+    width: 100vw;
+    padding: 2.7em 3em;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.navItem2 {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.tint-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue; /* Replace with your desired color and opacity */
+  pointer-events: none;
+  position: relative;
+}
+
+.navItem2, .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navItem { 
+    font-weight: 500;
+    font-size: 1rem;
+    list-style: none;
+    margin-right: 1em;
+}
+
+.counter {
+    position: absolute;
+    top: 1.9em;
+    right: 3.2em;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+.navItem3 {
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+    margin-top: 1.3em;
+}
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navItem {
+        margin-bottom: 0.5em;
+        justify-content: flex-start;
+    }
+    /* .navItem2 {
+        flex-direction: column;
+    } */
+
+    .navItemImg {
+        width: 1.4em;
+        height: 1.4em;
+    }
+
+    .navItem { 
+    font-weight: 500;
+    font-size: 0.7rem;
+    list-style: none;
+}
+}
