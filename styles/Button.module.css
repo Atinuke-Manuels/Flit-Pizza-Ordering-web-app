@@ -1,0 +1,46 @@
+.headerImgs {
+    position: relative;
+}
+
+.button {
+    background-color: orange;
+    color           : white;
+    padding         : 0.9em 2em 0.9em 2.8em;
+    margin-top      : 2em;
+    display         : flex;
+    justify-content : center;
+    text-align      : center;
+    border          : none;
+    border-radius   : 1.2em;
+    font-weight     : bold;
+    cursor          : pointer;
+}
+
+.cartBtn {
+position: absolute;
+left    : 0.6em;
+top     : 0.3em;
+}
+
+@media screen and (max-width: 1081px) {
+   .orange {
+    width : 420px;
+    height: 420px;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .orange {
+    width : 380px;
+    height: 400px;
+}
+
+.cartBtn {
+left: 0.8em;
+top : 0.4em;
+}
+}

@@ -1,57 +1,57 @@
 .container {
     background-color: white;
-    display: flex;
-    height: 3em;
-    width: 100vw;
-    padding: 2.7em 3em;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    z-index: 999;
+    display         : flex;
+    height          : 3em;
+    width           : 100vw;
+    padding         : 2.7em 3em;
+    align-items     : center;
+    justify-content : space-between;
+    position        : fixed;
+    top             : 0;
+    z-index         : 999;
 }
 
 .navItem2 {
-    display: flex;
-    gap: 1em;
+    display    : flex;
+    gap        : 1em;
     align-items: center;
 }
 
 .tint-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: blue; /* Replace with your desired color and opacity */
-  pointer-events: none;
-  position: relative;
+  position        : absolute;
+  top             : 0;
+  left            : 0;
+  width           : 100%;
+  height          : 100%;
+  background-color: blue;      /* Replace with your desired color and opacity */
+  pointer-events  : none;
+  position        : relative;
 }
 
 .navItem2, .list{
-    display: flex;
+    display        : flex;
     justify-content: space-between;
-    align-items: center;
+    align-items    : center;
 }
 .navItem { 
-    font-weight: 500;
-    font-size: 1rem;
-    list-style: none;
+    font-weight : 500;
+    font-size   : 1rem;
+    list-style  : none;
     margin-right: 1em;
 }
 
 .counter {
-    position: absolute;
-    top: 1.9em;
-    right: 3.2em;
-    width: 1.2em;
-    height: 1.2em;
-    border-radius: 50%;
+    position        : absolute;
+    top             : 1.9em;
+    right           : 3.2em;
+    width           : 1.2em;
+    height          : 1.2em;
+    border-radius   : 50%;
     background-color: red;
-    font-size: 0.8rem;
-    text-align: center;
-    color: white;
-    padding: 2px;
+    font-size       : 0.8rem;
+    text-align      : center;
+    color           : white;
+    padding         : 2px;
 }
 
 .navItem3 {
@@ -60,30 +60,44 @@
 
 @media screen and (max-width: 768px) {
 .container {
-    margin-top: 1.3em;
+    padding-top: 3.2em;
 }
 
     .list {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        display       : flex;
+        flex-direction: row;
+        align-items   : flex-start;
     }
     .navItem {
-        margin-bottom: 0.5em;
+        margin-bottom  : 0.5em;
         justify-content: flex-start;
     }
-    /* .navItem2 {
+      /* .navItem2 {
         flex-direction: column;
     } */
 
     .navItemImg {
-        width: 1.4em;
+        width : 1.4em;
         height: 1.4em;
     }
 
-    .navItem { 
+    .navItem {
     font-weight: 500;
-    font-size: 0.7rem;
-    list-style: none;
+    font-size  : 0.7rem;
+    list-style : none;
 }
+
+.counter {
+    position        : absolute;
+    top             : 2.6em;
+    right           : 3.2em;
+    width           : 1.2em;
+    height          : 1.2em;
+    font-size       : 0.8rem;
+    padding         : 2px;
+}
+
+/* .hideOnLargeScreens{
+
+} */
 }

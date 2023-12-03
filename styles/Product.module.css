@@ -1,0 +1,183 @@
+.container {
+    height         : 100vh;
+    padding-top    : 6em;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.left {
+    flex           : 1;
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.right {
+    flex   : 1;
+    padding: 20px;
+}
+
+.pizzaImg {
+    width   : 85%;
+    height  : 85%;
+    position: relative;
+}
+.title {
+    margin-bottom: 0.8em;
+}
+
+.price {
+    color       : red;
+    font-size   : 1.2rem;
+    font-weight : bold;
+    margin-right: 0.6em;
+}
+
+.reviews {
+    color      : rgb(172, 166, 166);
+    font-weight: bold;
+}
+
+.description {
+    padding-top: 0.9em;
+    font-size  : 0.9rem;
+    color      : grey;
+}
+
+.pizzaSizes {
+    width          : 40%;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.size {
+    height  : 2em;
+    width   : 2em;
+    position: relative;
+    cursor  : pointer;
+}
+
+.size:nth-child(2) {
+    width : 3em;
+    height: 3em;
+}
+
+.size:last-child{
+    width : 4.2em;
+    height: 4.2em;
+}
+
+.small {
+    position        : absolute;
+    top             : -0.55em;
+    right           : -1.6em;
+    background-color: red;
+    color           : white;
+    font-size       : 0.7rem;
+    padding         : 0.2em 0.6em;
+    border-radius   : 8px;
+}
+
+.choose {
+    padding-top   : 1.8em;
+    padding-bottom: 0.5em;
+}
+
+.extraIngredients{
+    padding-bottom: 1.3em;
+}
+
+.option {
+    display    : flex;
+    align-items: center;
+    gap        : 0.4em;
+}
+
+.extra {
+    width : 1em;
+    height: 1em;
+}
+
+.quantityDiv {
+    width      : 70%;
+    display    : flex;
+    align-items: center;
+    gap        : 2em;
+}
+
+.quantity {
+    width  : 40%;
+    padding: 0.7em ;
+}
+
+.button {
+    background-color: orange;
+    color           : white;
+    padding         : 1em 1.8em ;
+    text-align      : center;
+    border          : none;
+    border-radius   : 1.8em;
+    font-weight     : bold;
+    font-size       : 0.8rem;
+    cursor          : pointer;
+}
+
+
+
+@media screen and (max-width: 1081px) {
+.pizzaSizes {
+    width: 60%;
+}
+
+.quantityDiv {
+    width: 80%;
+    gap  : 0.8em;
+}
+
+.quantity {
+    width: 40%;
+}
+
+.button {
+    background-color: orange;
+    color           : white;
+    padding         : 1em 1.6em ;
+    border-radius   : 1.2em;
+    font-weight     : bold;
+    font-size       : 0.8rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+.pizzaSizes {
+    width: 75%;
+}
+.quantityDiv {
+    width      : 100%;
+    display    : flex;
+    align-items: center;
+    gap        : 0.7em;
+}
+
+.quantity {
+    width  : 40%;
+    padding: 0.5em ;
+}
+
+.button {
+    background-color: orange;
+    color           : white;
+    padding         : 1em 1.2em ;
+    border-radius   : 1.2em;
+    font-weight     : bold;
+    font-size       : 0.6rem;
+}
+
+.love {
+    width : 25px;
+    height: 25px;
+}
+}

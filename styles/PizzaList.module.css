@@ -12,8 +12,8 @@
 
 .wrapper {
     width: 100%;
-    /* padding-top: 5em; */
-    display: flex;
+      /* padding-top: 5em; */
+    display    : flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap  : wrap;
 }

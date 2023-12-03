@@ -1,6 +1,6 @@
 .container {
     margin: 0 0 3em 0;
-    width: 100%;
+    width : 100%;
 }
 
 .redHeading {
@@ -12,29 +12,30 @@
 }
 
 .cardDiv {
-    display: flex;
+    display        : flex;
     justify-content: space-between;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
-    align-items: center;
-    width: 24%;
-    padding: 4em;
-    /* padding: 1em 1.3em; */
-    margin: 1.5em 0;
+    align-items    : center;
+    width          : 24%;
+    padding        : 4em;
+      /* padding: 1em 1.3em; */
+    margin       : 1.5em 0;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow   : 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .feedBackImg {
     border-radius: 50%;
+    margin-bottom: 0.7em;
 }
 
 .pTag {
     text-align: center;
-    color: grey;
+    color     : grey;
     margin-top: 1.2em;
 }

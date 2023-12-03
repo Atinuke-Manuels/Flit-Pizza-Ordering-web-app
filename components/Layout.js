@@ -4,7 +4,7 @@ import styles from '../styles/Layout.module.css'
 
 const Layout = ({children}) => {
     return(
-        <div className={styles.main}>
+        <div className = {styles.main}>
         <NavBar/>
         {children}
         <Footer/>

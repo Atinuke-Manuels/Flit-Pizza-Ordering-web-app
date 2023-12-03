@@ -1,7 +1,8 @@
 .container {
-    margin: 4em 0 1em 0;
+    margin          : 4em 0 1em 0;
     background-color: #fffbed;
-    padding-bottom: 2.5em;
+    padding-bottom  : 2.5em;
+    position        : relative;
 }
 
 .redHeading {
@@ -13,10 +14,10 @@
 }
 
 .cardDiv {
-    display: flex;
+    display        : flex;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 3em;
+    align-items    : center;
+    padding-top    : 3em;
 }
 
 .cardHeader{
@@ -24,6 +25,19 @@
 }
 
 .cardDesc {
-    color: grey;
+    color     : grey;
     margin-top: 1em;
+}
+
+.pizzaSlice {
+    position: absolute;
+    top     : 2em;
+    right   : 2em;
+}
+
+@media screen and (max-width: 768px) {
+.pizzaSlice {
+    width : 70px;
+    height: 70px;
+}
 }
